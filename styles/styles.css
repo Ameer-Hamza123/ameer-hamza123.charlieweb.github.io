@@ -818,4 +818,7 @@ ul>li {
         margin-left: 50px;
         margin-top: -15vw;
     }
+    body {
+        width: 100%
+    }
 }
