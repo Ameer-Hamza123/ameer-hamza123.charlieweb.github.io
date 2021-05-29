@@ -1,600 +1,821 @@
-        body {
-            background-image: url(../backgroung\ image.gif);
-            font-family: sans-serif;
-        }
-        
-        .main-div {
-            display: flex;
-            color: #fff;
-        }
-        
-        .span-1 {
-            font-size: 100px;
-            text-align: left;
-            display: inline-block;
-            margin: 0;
-            padding: 0;
-        }
-        
-        .span-2 {
-            font-size: 100px;
-            text-align: right;
-            display: inline-block;
-            margin: 0;
-            padding: 0;
-        }
-        
-        .span-3 {
-            font-size: 100px;
-            text-align: center;
-            display: inline-block;
-            margin: 0;
-            padding: 0;
-        }
-        
-        .link-div {
-            color: #fff;
-            width: 49%;
-            margin-top: -20px;
-            padding-left: 50px;
-        }
-        
-        .image {
-            width: 49%;
-        }
-        
-        .div-2 {
-            color: #fff;
-            display: flex;
-            text-align: center;
-        }
-        
-        ul>li {
-            color: #fff;
-        }
-        
-        .h1-span {
-            display: inline-block;
-        }
-        
-        .h2-span {
-            display: inline-block;
-        }
-        
-        .div-3 {
-            margin: auto;
-        }
-        
-        .border {
-            text-align: center;
-            border-radius: 100%;
-            color: gray;
-            border: 1px solid;
-            max-width: 200px;
-            margin: auto;
-            margin-top: 100px;
-            margin-bottom: 100px;
-            padding: 20px;
-        }
-        
-        .color {
-            color: #fff;
-        }
-        
-        .img-1 {
-            width: 150px;
-            height: 20px;
-        }
-        
-        .para {
-            text-align: left;
-            display: flex;
-            justify-content: space-between;
-            padding-left: 50px;
-            padding-right: 50px;
-        }
-        
-        .para-1 {
-            text-align: right;
-            display: flex;
-            justify-content: flex-end;
-            float: right;
-        }
-        
-        .image-right {
-            padding-right: 50px;
-        }
-        
-        .horizon-line {
-            width: 23vw;
-            background-color: gray;
-            height: 1px;
-            display: inline-block;
-            margin: 18px;
-        }
-        
-        .horizon-line1 {
-            width: 23vw;
-            background-color: gray;
-            height: 1px;
-            display: inline-block;
-            margin: 18px;
-        }
-        
-        .horizon-linetext {
-            display: inline-block;
-        }
-        
-        .main-horizon {
-            text-align: center;
-        }
-        
-        .service {
-            text-align: center;
-            color: #fff;
-            margin-top: 15vw;
-            font-size: 10px;
-        }
-        
-        .parag {
-            color: #fff;
-            text-align: center;
-            font-size: 60px;
-            font-family: canela web;
-            margin: 5vw;
-        }
-        
-        .workshop-button {
-            text-align: center;
-            border-radius: 100%;
-            color: gray;
-            border: 1px solid;
-            max-width: 250px;
-            margin-top: 100px;
-            margin-bottom: 100px;
-            padding: 20px;
-            margin: auto;
-        }
-        
-        .projects {
-            text-align: center;
-            margin-top: 30%;
-            font-size: 12px;
-        }
-        
-        .main-image {
-            color: #fff;
-            display: inline-block;
-            margin-left: 30vw;
-        }
-        
-        .image10 {
-            position: absolute;
-            vertical-align: middle;
-            display: inline-block;
-        }
-        
-        .focus {
-            font-size: 35vh;
-            display: inline-block;
-            position: static;
-            margin-top: 23vw;
-            font-family: canela web;
-            margin-left: -5vw;
-        }
-        
-        .malte {
-            text-align: center;
-            padding: 15%;
-            color: #fff;
-        }
-        
-        .namemalte {
-            font-weight: bold;
-            margin: 10px;
-        }
-        
-        .paramalte {
-            color: darkgray;
-        }
-        
-        .boldpara {
-            color: #fff;
-            text-align: center;
-            font-size: 50px;
-            font-family: canela web;
-        }
-        
-        .numpara {
-            color: #fff;
-            text-align: center;
-            display: inline-block;
-            margin-left: 15vw;
-        }
-        
-        .num1 {
-            display: inline-block;
-            margin: 7vw;
-        }
-        
-        .num2 {
-            display: inline-block;
-            margin: 7vw;
-        }
-        
-        .num3 {
-            display: inline-block;
-            margin: 7vw;
-        }
-        
-        .mun1 {
-            font-size: 5vw;
-            margin-right: 5vw;
-            font-family: canela web;
-        }
-        
-        .mun2 {
-            font-size: 5vw;
-            margin-right: 4vw;
-            font-family: canela web;
-        }
-        
-        .mun3 {
-            font-size: 5vw;
-            margin-right: 1vw;
-            font-family: canela web;
-        }
-        
-        .num4 {
-            display: inline-block;
-            margin: 7vw;
-        }
-        
-        .num5 {
-            display: inline-block;
-            margin: 9vw;
-        }
-        
-        .num6 {
-            display: inline-block;
-            margin: 5vw;
-        }
-        
-        .numpara2 {
-            display: inline-block;
-            color: #fff;
-            text-align: center;
-            margin-left: 15vw;
-            margin-top: -10%;
-        }
-        
-        .mun4 {
-            font-size: 5vw;
-        }
-        
-        .mun5 {
-            font-size: 5vw;
-            margin-left: -30px;
-        }
-        
-        .mun6 {
-            font-size: 5vw;
-        }
-        
-        .socialmedia {
-            margin-left: 50px;
-        }
-        
-        .seeprojects {
-            color: #fff;
-            text-align: center;
-            font-size: 20px;
-            margin-left: 2vw;
-        }
-        
-        .linee {
-            background-color: gray;
-            height: 0.5px;
-            text-align: center;
-            width: 23vw;
-            margin-left: 39vw;
-            margin-top: 15vw;
-        }
-        
-        .tabpic {
-            color: #fff;
-            display: inline-block;
-            margin-left: 23vw;
-            margin-top: 10vw;
-        }
-        
-        .tabimg {
-            display: inline-block;
-            vertical-align: middle;
-            position: absolute;
-        }
-        
-        .mercury {
-            display: inline-block;
-            text-align: center;
-            font-size: 15vw;
-            position: static;
-            margin-top: 30vw;
-            font-family: canela web;
-        }
-        
-        .gemma {
-            text-align: center;
-            color: #fff;
-            margin-top: 10vw;
-        }
-        
-        .gemmapara {
-            color: gray;
-        }
-        
-        .gemmaname {
-            font-weight: bold;
-            margin: 5px;
-        }
-        
-        .charliepara {
-            color: #fff;
-            text-align: center;
-            font-size: 60px;
-            margin-top: 3vw;
-            font-family: canela web;
-        }
-        
-        .gemmanum {
-            color: #fff;
-            display: inline-block;
-            margin-top: 15vw;
-        }
-        
-        .gemma01 {
-            display: inline-block;
-            margin-left: 20vw;
-        }
-        
-        .gemma02 {
-            display: inline-block;
-            margin-left: 15vw;
-        }
-        
-        .gemma03 {
-            display: inline-block;
-            margin-left: 20vw;
-        }
-        
-        .gemma1 {
-            font-size: 5vw;
-            font-family: canela web;
-        }
-        
-        .gemma2 {
-            font-size: 5vw;
-            font-family: canela web;
-        }
-        
-        .gemma3 {
-            font-size: 5vw;
-            font-family: canela web;
-        }
-        
-        .gemmanum2 {
-            color: #fff;
-            display: inline-block;
-            margin-top: 5vw;
-        }
-        
-        .gemma04 {
-            display: inline-block;
-            margin-left: 20vw;
-        }
-        
-        .gemma05 {
-            display: inline-block;
-            margin-left: 20vw;
-        }
-        
-        .gemma4 {
-            font-family: canela web;
-            font-size: 5vw;
-        }
-        
-        .gemma5 {
-            font-family: canela web;
-            font-size: 5vw;
-        }
-        
-        .seeprojects1 {
-            color: #fff;
-            text-align: center;
-            font-size: 20px;
-            margin-top: 10vw;
-        }
-        
-        .linee1 {
-            background-color: gray;
-            height: 0.5px;
-            text-align: center;
-            width: 23vw;
-            margin-left: 37vw;
-            margin-top: 10vw;
-        }
-        
-        .mobileimg {
-            display: inline-block;
-            color: #fff;
-            text-align: center;
-            margin-top: 15vw;
-        }
-        
-        .mobiletext {
-            font-size: 15vw;
-            position: static;
-            margin-left: 5vw;
-            margin-top: 25vw;
-            font-family: canela web;
-        }
-        
-        .mimg {
-            position: absolute;
-            margin-left: 20vw;
-        }
-        
-        .craig {
-            color: #fff;
-            text-align: center;
-            margin-top: 20vw;
-        }
-        
-        .craigname {
-            font-weight: bold;
-            margin: 5px;
-        }
-        
-        .craigtext {
-            color: gray;
-        }
-        
-        .craigpara {
-            color: #fff;
-            text-align: center;
-            font-size: 60px;
-            margin-top: 5vw;
-            font-family: canela web;
-        }
-        
-        .numpara3 {
-            color: #fff;
-            text-align: center;
-            display: inline-block;
-            margin-left: 15vw;
-            margin-top: 8vw;
-        }
-        
-        .mun7 {
-            font-size: 5vw;
-        }
-        
-        .socialmedia2 {
-            margin-left: 50px;
-        }
-        
-        .seeprojects2 {
-            color: #fff;
-            text-align: center;
-            font-size: 20px;
-            margin-left: 2vw;
-        }
-        
-        .viewprojects {
-            border: 1px solid gray;
-            border-radius: 100%;
-            max-width: 13vw;
-            margin-left: 43vw;
-            text-align: center;
-            max-height: 100%;
-            margin-top: 10vw;
-            padding: 20px;
-            font-weight: bold;
-        }
-        
-        .main-horizon1 {
-            text-align: center;
-            margin-top: 20vw;
-            margin-left: 2vw;
-        }
-        
-        .tree {
-            text-align: center;
-            margin-top: 20vw;
-            margin-left: 3vw;
-        }
-        
-        .teacher {
-            text-align: center;
-            color: #fff;
-            font-size: 12px;
-            margin-top: 3vw;
-            margin-left: 3vw;
-        }
-        
-        .lap-tab {
-            text-align: center;
-            display: flex;
-            margin-top: 10vw;
-        }
-        
-        .lap-tab1 {
-            position: static;
-            margin-left: 30vw;
-            display: inline-block;
-        }
-        
-        .lap-tab2 {
-            position: absolute;
-            display: inline-block;
-            margin-left: 45vw;
-        }
-        
-        .charlieacademy {
-            color: #fff;
-            font-size: 60px;
-            text-align: center;
-            margin-top: 5vw;
-            font-family: canela web;
-        }
-        
-        .visitcourse {
-            text-align: center;
-            border: 1px solid gray;
-            border-radius: 100%;
-            max-width: 10vw;
-            padding: 2vw;
-            color: #fff;
-            margin-left: 43vw;
-            margin-top: 5vw;
-        }
-        
-        .social {
-            color: #fff;
-            text-align: center;
-            font-size: 11px;
-            margin-top: 10vw;
-        }
-        
-        .social1 {
-            color: #fff;
-            font-size: 10vw;
-            font-family: canela web;
-            margin-top: 10vw;
-        }
-        
-        .callbook {
-            color: #fff;
-            font-size: 10px;
-            font-weight: bold;
-            margin-top: 15vw;
-        }
-        
-        .contact {
-            color: #fff;
-            font-size: 8vw;
-            font-family: canela web;
-            margin-top: 5vw;
-            position: absolute;
-            margin-left: 28vw;
-        }
-        
-        .charpic {
-            position: static;
-            margin-top: 10vw;
-        }
-        
-        .last {
-            text-align: center;
-            margin-top: 20vw;
-        }
+body {
+    background-image: url(../backgroung\ image.gif);
+    font-family: sans-serif;
+}
+
+.main-div {
+    display: flex;
+    color: #fff;
+}
+
+.span-1 {
+    font-size: 100px;
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.span-2 {
+    font-size: 100px;
+    text-align: right;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.span-3 {
+    font-size: 100px;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.link-div {
+    color: #fff;
+    width: 49%;
+    margin-top: -20px;
+    padding-left: 50px;
+}
+
+.image {
+    width: 49%;
+}
+
+.div-2 {
+    color: #fff;
+    display: flex;
+    text-align: center;
+}
+
+ul>li {
+    color: #fff;
+}
+
+.h1-span {
+    display: inline-block;
+}
+
+.h2-span {
+    display: inline-block;
+}
+
+.div-3 {
+    margin: auto;
+}
+
+.border {
+    text-align: center;
+    border-radius: 100%;
+    color: gray;
+    border: 1px solid;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+.color {
+    color: #fff;
+}
+
+.img-1 {
+    width: 150px;
+    height: 20px;
+}
+
+.para {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.para-1 {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+}
+
+.image-right {
+    padding-right: 50px;
+}
+
+.horizon-line {
+    width: 23vw;
+    background-color: gray;
+    height: 1px;
+    display: inline-block;
+    margin: 18px;
+}
+
+.horizon-line1 {
+    width: 23vw;
+    background-color: gray;
+    height: 1px;
+    display: inline-block;
+    margin: 18px;
+}
+
+.horizon-linetext {
+    display: inline-block;
+}
+
+.main-horizon {
+    text-align: center;
+}
+
+.service {
+    text-align: center;
+    color: #fff;
+    margin-top: 15vw;
+    font-size: 10px;
+}
+
+.parag {
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    font-family: canela web;
+    margin: 5vw;
+}
+
+.workshop-button {
+    text-align: center;
+    border-radius: 100%;
+    color: gray;
+    border: 1px solid;
+    max-width: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    margin: auto;
+}
+
+.projects {
+    text-align: center;
+    margin-top: 30%;
+    font-size: 12px;
+}
+
+.main-image {
+    color: #fff;
+    display: inline-block;
+    margin-left: 30vw;
+}
+
+.image10 {
+    position: absolute;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.focus {
+    font-size: 35vh;
+    display: inline-block;
+    position: static;
+    margin-top: 23vw;
+    font-family: canela web;
+    margin-left: -5vw;
+}
+
+.malte {
+    text-align: center;
+    padding: 15%;
+    color: #fff;
+}
+
+.namemalte {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.paramalte {
+    color: darkgray;
+}
+
+.boldpara {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-family: canela web;
+}
+
+.numpara {
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    margin-left: 15vw;
+}
+
+.num1 {
+    display: inline-block;
+    margin: 7vw;
+}
+
+.num2 {
+    display: inline-block;
+    margin: 7vw;
+}
+
+.num3 {
+    display: inline-block;
+    margin: 7vw;
+}
+
+.mun1 {
+    font-size: 5vw;
+    margin-right: 5vw;
+    font-family: canela web;
+}
+
+.mun2 {
+    font-size: 5vw;
+    margin-right: 4vw;
+    font-family: canela web;
+}
+
+.mun3 {
+    font-size: 5vw;
+    margin-right: 1vw;
+    font-family: canela web;
+}
+
+.num4 {
+    display: inline-block;
+    margin: 7vw;
+}
+
+.num5 {
+    display: inline-block;
+    margin: 9vw;
+}
+
+.num6 {
+    display: inline-block;
+    margin: 5vw;
+}
+
+.numpara2 {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    margin-left: 15vw;
+    margin-top: -10%;
+}
+
+.mun4 {
+    font-size: 5vw;
+}
+
+.mun5 {
+    font-size: 5vw;
+    margin-left: -30px;
+}
+
+.mun6 {
+    font-size: 5vw;
+}
+
+.socialmedia {
+    margin-left: 50px;
+}
+
+.seeprojects {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 2vw;
+}
+
+.linee {
+    background-color: gray;
+    height: 0.5px;
+    text-align: center;
+    width: 23vw;
+    margin-left: 39vw;
+    margin-top: 15vw;
+}
+
+.tabpic {
+    color: #fff;
+    display: inline-block;
+    margin-left: 23vw;
+    margin-top: 10vw;
+}
+
+.tabimg {
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+}
+
+.mercury {
+    display: inline-block;
+    text-align: center;
+    font-size: 15vw;
+    position: static;
+    margin-top: 30vw;
+    font-family: canela web;
+}
+
+.gemma {
+    text-align: center;
+    color: #fff;
+    margin-top: 10vw;
+}
+
+.gemmapara {
+    color: gray;
+}
+
+.gemmaname {
+    font-weight: bold;
+    margin: 5px;
+}
+
+.charliepara {
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 3vw;
+    font-family: canela web;
+}
+
+.gemmanum {
+    color: #fff;
+    display: inline-block;
+    margin-top: 15vw;
+}
+
+.gemma01 {
+    display: inline-block;
+    margin-left: 20vw;
+}
+
+.gemma02 {
+    display: inline-block;
+    margin-left: 15vw;
+}
+
+.gemma03 {
+    display: inline-block;
+    margin-left: 20vw;
+}
+
+.gemma1 {
+    font-size: 5vw;
+    font-family: canela web;
+}
+
+.gemma2 {
+    font-size: 5vw;
+    font-family: canela web;
+}
+
+.gemma3 {
+    font-size: 5vw;
+    font-family: canela web;
+}
+
+.gemmanum2 {
+    color: #fff;
+    display: inline-block;
+    margin-top: 5vw;
+}
+
+.gemma04 {
+    display: inline-block;
+    margin-left: 20vw;
+}
+
+.gemma05 {
+    display: inline-block;
+    margin-left: 20vw;
+}
+
+.gemma4 {
+    font-family: canela web;
+    font-size: 5vw;
+}
+
+.gemma5 {
+    font-family: canela web;
+    font-size: 5vw;
+}
+
+.seeprojects1 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10vw;
+}
+
+.linee1 {
+    background-color: gray;
+    height: 0.5px;
+    text-align: center;
+    width: 23vw;
+    margin-left: 37vw;
+    margin-top: 10vw;
+}
+
+.mobileimg {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    margin-top: 15vw;
+}
+
+.mobiletext {
+    font-size: 15vw;
+    position: static;
+    margin-left: 5vw;
+    margin-top: 25vw;
+    font-family: canela web;
+}
+
+.mimg {
+    position: absolute;
+    margin-left: 20vw;
+}
+
+.craig {
+    color: #fff;
+    text-align: center;
+    margin-top: 20vw;
+}
+
+.craigname {
+    font-weight: bold;
+    margin: 5px;
+}
+
+.craigtext {
+    color: gray;
+}
+
+.craigpara {
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 5vw;
+    font-family: canela web;
+}
+
+.numpara3 {
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    margin-left: 15vw;
+    margin-top: 8vw;
+}
+
+.mun7 {
+    font-size: 5vw;
+}
+
+.socialmedia2 {
+    margin-left: 50px;
+}
+
+.seeprojects2 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 2vw;
+}
+
+.viewprojects {
+    border: 1px solid gray;
+    border-radius: 100%;
+    max-width: 13vw;
+    margin-left: 43vw;
+    text-align: center;
+    max-height: 100%;
+    margin-top: 10vw;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.main-horizon1 {
+    text-align: center;
+    margin-top: 20vw;
+    margin-left: 2vw;
+}
+
+.tree {
+    text-align: center;
+    margin-top: 20vw;
+    margin-left: 3vw;
+}
+
+.teacher {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 3vw;
+    margin-left: 3vw;
+}
+
+.lap-tab {
+    text-align: center;
+    display: flex;
+    margin-top: 10vw;
+}
+
+.lap-tab1 {
+    position: static;
+    margin-left: 30vw;
+    display: inline-block;
+}
+
+.lap-tab2 {
+    position: absolute;
+    display: inline-block;
+    margin-left: 45vw;
+}
+
+.charlieacademy {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 5vw;
+    font-family: canela web;
+}
+
+.visitcourse {
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 100%;
+    max-width: 10vw;
+    padding: 2vw;
+    color: #fff;
+    margin-left: 43vw;
+    margin-top: 5vw;
+}
+
+.social {
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    margin-top: 10vw;
+}
+
+.social1 {
+    color: #fff;
+    font-size: 10vw;
+    font-family: canela web;
+    margin-top: 10vw;
+}
+
+.callbook {
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 15vw;
+}
+
+.contact {
+    color: #fff;
+    font-size: 8vw;
+    font-family: canela web;
+    margin-top: 5vw;
+    position: absolute;
+    margin-left: 28vw;
+}
+
+.charpic {
+    position: static;
+    margin-top: 10vw;
+}
+
+.last {
+    text-align: center;
+    margin-top: 20vw;
+}
+
+.view3 {
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-div {
+        display: flex;
+        width: 300vw;
+    }
+    .div-2 {
+        width: max-content;
+    }
+    .border {
+        margin-left: 450px;
+        width: 50vw;
+    }
+    .para {
+        width: 280vw;
+    }
+    .main-horizon {
+        display: flex;
+        margin-left: 130vw;
+    }
+    .service {
+        margin-left: 135vw;
+        width: 20vw;
+    }
+    .parag {
+        margin-left: 35vw;
+        width: 250vw;
+    }
+    .workshop-button {
+        margin-left: 120vw;
+        width: 50vw;
+    }
+    .projects {
+        margin-left: 110vw;
+        width: 300px;
+    }
+    .main-image {
+        margin-left: 70vw;
+    }
+    .malte {
+        margin-left: 80vw;
+        margin-top: 400px;
+        width: 400px;
+    }
+    .boldpara {
+        margin-left: 35vw;
+        width: 250vw;
+    }
+    .numpara {
+        margin-left: 50vw;
+        width: 800px;
+    }
+    .numpara2 {
+        margin-left: 55vw;
+        width: 800px;
+    }
+    .num4 {
+        margin-left: 20vw;
+    }
+    .num3 {
+        margin-left: 20vw;
+    }
+    .seeprojects {
+        margin-left: 130vw;
+        width: 200px;
+        margin-top: 20vw;
+    }
+    .linee {
+        margin-left: 140vw;
+        margin-top: 20vw;
+    }
+    .tabpic {
+        margin-left: 10vw;
+        display: flex;
+    }
+    .mercury {
+        display: flex;
+        position: static;
+        font-size: 70vw;
+        margin-left: 50px;
+    }
+    .gemma {
+        margin-top: 200vw;
+        margin-left: 90vw;
+        width: 400px;
+    }
+    .charliepara {
+        margin-left: 10vw;
+        width: 300vw;
+    }
+    .gemmanum {
+        margin-left: 50vw;
+        width: 800px;
+    }
+    .gemmanum2 {
+        margin-left: 50vw;
+        width: 800px;
+    }
+    .gemma04 {
+        margin-right: 20vw;
+    }
+    .seeprojects1 {
+        margin-left: 120vw;
+        width: 200px;
+        margin-top: 20vw;
+    }
+    .linee1 {
+        margin-left: 130vw;
+        margin-top: 20vw;
+    }
+    .mimg {
+        margin-left: 50vw;
+    }
+    .mobiletext {
+        font-size: 170px;
+        width: 1200px;
+    }
+    .craig {
+        margin-top: 200vw;
+        margin-left: 90vw;
+        width: 400px;
+    }
+    .craigpara {
+        margin-left: 5vw;
+        width: 300vw;
+    }
+    .numpara3 {
+        margin-left: 50vw;
+        width: 800px;
+    }
+    .numpara2 {
+        margin-left: 55vw;
+        width: 800px;
+    }
+    .num3 {
+        margin-left: 20vw;
+    }
+    .num6 {
+        margin-left: 15vw;
+        margin-right: 10vw;
+    }
+    .seeprojects2 {
+        margin-left: 120vw;
+        width: 200px;
+        margin-top: 20vw;
+    }
+    .viewprojects {
+        margin-left: 90vw;
+        width: 400vh;
+        border: 1px solid black;
+        border-radius: 100%;
+        margin-top: 100px;
+    }
+    .view3 {
+        width: 350px;
+        border: 1px solid gray;
+        border-radius: 200%;
+        height: 70px;
+        padding-top: 30px;
+    }
+    .main-horizon1 {
+        margin-left: 125vw;
+        display: inline-block;
+    }
+    .horizon-linetext {
+        display: inline-block;
+    }
+    .tree {
+        margin-left: 140vw;
+    }
+    .teacher {
+        margin-left: 45vw;
+        width: 200vw;
+    }
+    .lap-tab {
+        margin-left: 50vw;
+    }
+    .lap-tab2 {
+        margin-left: 300px;
+    }
+    .charlieacademy {
+        margin-left: 5vw;
+        width: 300vw;
+        margin-top: 100px;
+    }
+    .visitcourse {
+        margin-left: 90vw;
+        width: 400vh;
+        border: 1px solid black;
+        border-radius: 100%;
+        margin-top: 100px;
+    }
+    .course {
+        width: 300px;
+        border: 1px solid gray;
+        border-radius: 200%;
+        height: 70px;
+        padding-top: 40px;
+    }
+    .social1 {
+        margin-left: 10vw;
+        font-size: 170px;
+        margin-top: 150px;
+    }
+    .main-horizon1 {
+        margin-left: -0vw;
+    }
+    .callbook {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .contact {
+        font-size: 100px;
+        margin-left: 50px;
+        margin-top: -15vw;
+    }
+}
