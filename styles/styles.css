@@ -603,7 +603,7 @@ ul>li {
     color: #fff;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .main-div {
         display: flex;
         width: 300vw;
